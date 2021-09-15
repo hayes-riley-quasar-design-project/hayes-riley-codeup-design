@@ -7,12 +7,14 @@ body {
     font-size: xxx-large;
     font-family: 'Abel', sans-serif;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .contact-list{
 
     font-family: 'Abel', sans-serif;
     text-align: center;
+    font-size: 25px;
 
 }
 
@@ -90,7 +92,7 @@ ul{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     border: #cccccc solid 15px;
     border-radius: 5%;
 }
@@ -155,3 +157,4 @@ ul{
     font-size: 25px;
     font-family: 'Abel', sans-serif;
 }
+
