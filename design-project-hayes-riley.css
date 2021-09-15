@@ -1,0 +1,80 @@
+body {
+    background-color: lightgrey;
+
+}
+
+.title{
+    font-size: xxx-large;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+}
+
+.contact-list{
+
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.sub-heading > h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    padding: 0 25px 0 25px;
+}
+
+.sub-heading2 > h2{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.row .col-3{
+    margin-right: 40px;
+}
+
+.circles > .col-3{
+    color: white;
+    border: 10px solid white;
+    text-decoration: white;
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    height: 210px;
+    width: 50%;
+    text-align: center;
+    padding-top: 70px;
+    margin: 30px;
+    font-size: xx-large;
+
+
+}
+
+.design-circle{
+    background-color: #E6563B;
+}
+
+.dev-circle{
+    background-color: #DEA03D;
+}
+
+.support-circle{
+    background-color: #7CB06C;
+}
+
+.host-circle{
+    background-color: #00ABA9;
+}
