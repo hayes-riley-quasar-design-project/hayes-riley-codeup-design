@@ -30,16 +30,18 @@ ul{
     margin-right: auto;
     width: 50%;
     z-index: 100;
+    position: relative;
 
 }
 
-.logo img{
 
-    position: absolute;
-    top: 50px;
-    left: 275px;
+.image {
     height: 275px;
     width: 275px;
+    position: absolute;
+    right: 0;
+    bottom: -220px;
+
 }
 
 .gray-space{
@@ -47,6 +49,7 @@ ul{
     background-color: lightgrey;
 }
 .white-space{
+    padding-bottom: 170px;
     height: 160px;
     background: white;
 }
@@ -57,7 +60,7 @@ ul{
 /*    width: 100%;*/
 /*}*/
 .mt-10{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .sub-heading > h1{
     margin-top: 50px;
