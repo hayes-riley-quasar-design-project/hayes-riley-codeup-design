@@ -223,13 +223,128 @@ ul{
         font-size: 35px;
     }
 
+    .circle-hidden{
+        display: none;
+    }
+
+    .design-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 150px;
+        width: 100px;
+        padding-top: 45px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+        margin-right: 5px;
+
+
+    }
+
+.dev-circle{
+    color: white;
+    border-radius: 50%;
+    border: 8px solid white;
+    height: 150px;
+    width: 100px;
+    padding-top: 45px;
+    text-align: center;
+    padding-left: 15px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.support-circle{
+    color: white;
+    border-radius: 50%;
+    border: 8px solid white;
+    height: 150px;
+    width: 100px;
+    padding-top: 45px;
+    text-align: center;
+    padding-left: 15px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.host-circle{
+    color: white;
+    border-radius: 50%;
+    border: 8px solid white;
+    height: 150px;
+    width: 100px;
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+
+}
+
+.circle-margin {
+    /*display: inline-flex;*/
+    /*justify-content: space-evenly;*/
+    margin-top: 40px;
+
+
+}
+
+.col-sm-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 24%;
+}
+
+hr{
+    border: 1px solid grey;
+}
+
+.apple-ipad-hidden{
+    display: none;
+}
+
+.images-border {
+    border: #a29d9d solid 5px;
+    border-radius: 5%;
+}
+
+.apple-ipad-2{
+    height: 30vh;
+    width: 33vw;
+    background-image: url("assets/images/apple-ipad.jpg");
+    background-size: cover;
+
+
+}
+
+.macbook{
+    height: 30vh;
+    width: 33vw;
+    background-image: url("assets/images/macbook.jpg");
+    background-size: cover;
+}
+
+.man{
+    height: 30vh;
+    width: 33vw;
+    background-image: url("assets/images/man.jpg");
+    background-size: cover;
+}
+
+.security{
+    height: 30vh;
+    width: 33vw;
+    background-image: url("assets/images/security.jpg");
+    background-size: cover;
+}
 
 
 
+.col-sm-2 img{
 
-
-
-
+}
 
 
 
