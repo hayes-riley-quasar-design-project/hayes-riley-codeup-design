@@ -228,6 +228,7 @@ ul{
     font-family: 'Abel', sans-serif;
 }
 
+
 @media (max-width: 575.98px) {
 
     .circle-hidden-2 {
@@ -244,7 +245,12 @@ ul{
     .hidden-in-xs{
         display: none;
     }
-
+    .sel{
+        display:none;
+    }
+.xtra-content{
+    display: none;
+}
 
 
     /*.xs-tron > h5{*/
@@ -534,6 +540,12 @@ hr{
         margin-top: 0;
         padding-right: 15px;
     }
+    .sel{
+        display:none;
+    }
+    .xtra-content{
+        display: none;
+    }
 
 
 }
@@ -744,5 +756,19 @@ hr{
     .plain-text {
         font-family: 'Abel', sans-serif;
     }
+
+    .img-head-hidden{
+        display: none;
+    }
+    .sel{
+        display: block;
+        font-family: 'Abel', sans-serif;
+        margin-top: 50px;
+    }
+
+    .xtra-content{
+        display: block;
+    }
+
 
 }
