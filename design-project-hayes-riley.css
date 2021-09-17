@@ -642,5 +642,107 @@ hr{
     }
 
 
+    .apple-ipad-2{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/apple-ipad.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+
+
+    }
+
+    .macbook{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/macbook.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .man{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/man.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .security{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/security.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .mobile-phone {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/mobile-phone.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-1 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .head {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/head.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-2 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .ipad {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/ipad.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-3 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+
+    .twitter {
+        margin-left: 10px;
+    }
+
+    .bi-twitter {
+        padding-right: 10px;
+        color: cornflowerblue;
+    }
+
+    .plain-text {
+        font-family: 'Abel', sans-serif;
+    }
 
 }
