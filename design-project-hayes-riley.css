@@ -256,7 +256,11 @@ ul{
         display: none;
     }
 
+.card-body{
+    background: transparent;
 
+
+}
 
     .sub-heading > h1{
         margin-top: -150px;
