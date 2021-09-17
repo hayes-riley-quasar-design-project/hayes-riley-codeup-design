@@ -16,7 +16,8 @@ body {
 }
 
 .jumbo-title{
-    margin-left: 140px;
+
+    text-align: center;
     width: 100%;
     font-family: 'Abel', sans-serif;
     font-weight: bolder;
@@ -111,7 +112,8 @@ ul{
     font-size: 50px;
     font-family: 'Anton', sans-serif;
     margin-top: 50px;
-    margin-left: 100px;
+    text-align: center;
+    /*margin-left: 100px;*/
 }
 
 .row .col-4{
@@ -235,6 +237,14 @@ ul{
     .contact-list-hidden {
         display: none;
     }
+    .small-tron{
+        display: none;
+    }
+
+    /*.xs-tron > h5{*/
+    /*    display: none;*/
+    /*}*/
+
 
 }
 
@@ -242,10 +252,22 @@ ul{
 /* SMALL VIEW */
 
 @media (min-width: 576px) {
-    .jumbotron-fluid{
+    .xs-tron{
         display: none;
     }
 
+
+
+    .sub-heading > h1{
+        margin-top: -150px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+        padding: 0 25px 0 25px;
+    }
+    .sm-items{
+        margin-bottom: 40px;
+    }
     .image {
         height: 275px;
         width: 275px;
