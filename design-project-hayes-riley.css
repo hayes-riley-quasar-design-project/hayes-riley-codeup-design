@@ -6,6 +6,39 @@ body {
 
 }
 
+.jumbotron-fluid{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    height: 95px;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+h2{
+    margin-left: 130px;
+    width: 100%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.small-logo{
+    margin-top: -65px;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-right: auto;
+
+}
 .title{
     font-size: xxx-large;
     font-family: 'Abel', sans-serif;
