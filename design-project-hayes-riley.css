@@ -251,12 +251,16 @@ ul{
 .xtra-content{
     display: none;
 }
-
+.med-tron{
+    display: none;
+}
 
     /*.xs-tron > h5{*/
     /*    display: none;*/
     /*}*/
-
+.lg-tron{
+    display: none;
+}
 
 }
 
@@ -546,7 +550,13 @@ hr{
     .xtra-content{
         display: none;
     }
+.med-tron{
+    display: none;
+}
 
+.lg-tron{
+    display: none;
+}
 
 }
 
@@ -554,6 +564,10 @@ hr{
 /* MEDIUM VIEW */
 
 @media (min-width: 768px) {
+
+    .med-tron{
+        display: block;
+    }
 
     .small-tron{
         display: none;
@@ -656,7 +670,7 @@ hr{
 
     .apple-ipad-2{
         height: 20vh;
-        width: 30vw;
+        width: 25vw;
         background-image: url("assets/images/apple-ipad.jpg");
         background-size: cover;
         border: #a29d9d solid 5px;
@@ -667,7 +681,7 @@ hr{
 
     .macbook{
         height: 20vh;
-        width: 30vw;
+        width: 25vw;
         background-image: url("assets/images/macbook.jpg");
         background-size: cover;
         border: #a29d9d solid 5px;
@@ -676,7 +690,7 @@ hr{
 
     .man{
         height: 20vh;
-        width: 30vw;
+        width: 25vw;
         background-image: url("assets/images/man.jpg");
         background-size: cover;
         border: #a29d9d solid 5px;
@@ -685,7 +699,7 @@ hr{
 
     .security{
         height: 20vh;
-        width: 30vw;
+        width: 25vw;
         background-image: url("assets/images/security.jpg");
         background-size: cover;
         border: #a29d9d solid 5px;
@@ -717,6 +731,7 @@ hr{
         border: #a29d9d solid 5px;
         border-radius: 5%;
         margin-bottom: 20px;
+        margin-left: -9px;
     }
 
     .text-2 {
@@ -734,6 +749,7 @@ hr{
         border: #a29d9d solid 5px;
         border-radius: 5%;
         margin-bottom: 20px;
+        margin-left: -9px;
     }
 
     .text-3 {
@@ -764,11 +780,41 @@ hr{
         display: block;
         font-family: 'Abel', sans-serif;
         margin-top: 50px;
+        margin-left: 25px;
     }
 
     .xtra-content{
         display: block;
     }
+    .lg-tron{
+        display: none;
+    }
 
+
+}
+
+/*Large View*/
+
+@media (min-width: 992px) {
+    *{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bi-twitter{
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .plain-text{
+        margin-left: 0;
+    }
+    .med-tron{
+        display: none;
+    }
+    .lg-tron{
+
+        display: block;
+    }
 
 }
