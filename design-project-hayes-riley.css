@@ -537,3 +537,212 @@ hr{
 
 
 }
+
+
+/* MEDIUM VIEW */
+
+@media (min-width: 768px) {
+
+    .small-tron{
+        display: none;
+    }
+
+    .title {
+    margin-top: 20px;
+    }
+
+    .md-items {
+        margin-top: 40px;
+    }
+
+    .row .col-sm-2{
+        margin-right: 40px;
+    }
+
+    .circles > .col-sm-2{
+        color: white;
+        border: 10px solid white;
+        text-decoration: white;
+        font-family: 'Anton', sans-serif;
+        border-radius: 50%;
+        height: 230px;
+        width: 50%;
+        text-align: center;
+        padding-top: 80px;
+        margin: 30px;
+        font-size: 35px;
+    }
+
+    .circle-hidden{
+        display: none;
+    }
+
+    .design-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+
+
+    }
+
+    .dev-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        padding-left: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .support-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        padding-left: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .host-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+
+    }
+
+    .circle-margin {
+        /*display: inline-flex;*/
+        /*justify-content: space-evenly;*/
+        margin-top: 40px;
+
+
+    }
+
+
+    .apple-ipad-2{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/apple-ipad.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+
+
+    }
+
+    .macbook{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/macbook.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .man{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/man.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .security{
+        height: 20vh;
+        width: 30vw;
+        background-image: url("assets/images/security.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+    }
+
+    .mobile-phone {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/mobile-phone.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-1 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .head {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/head.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-2 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .ipad {
+        height: 10vh;
+        width: 10vw;
+        background-image: url("assets/images/ipad.jpg");
+        background-size: cover;
+        border: #a29d9d solid 5px;
+        border-radius: 5%;
+        margin-bottom: 20px;
+    }
+
+    .text-3 {
+        margin-left: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+
+    }
+
+
+    .twitter {
+        margin-left: 10px;
+    }
+
+    .bi-twitter {
+        padding-right: 10px;
+        color: cornflowerblue;
+    }
+
+    .plain-text {
+        font-family: 'Abel', sans-serif;
+    }
+
+}
