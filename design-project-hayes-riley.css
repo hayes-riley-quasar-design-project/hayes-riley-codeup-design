@@ -537,3 +537,110 @@ hr{
 
 
 }
+
+
+/* MEDIUM VIEW */
+
+@media (min-width: 768px) {
+
+    .small-tron{
+        display: none;
+    }
+
+    .title {
+    margin-top: 20px;
+    }
+
+    .md-items {
+        margin-top: 40px;
+    }
+
+    .row .col-sm-2{
+        margin-right: 40px;
+    }
+
+    .circles > .col-sm-2{
+        color: white;
+        border: 10px solid white;
+        text-decoration: white;
+        font-family: 'Anton', sans-serif;
+        border-radius: 50%;
+        height: 230px;
+        width: 50%;
+        text-align: center;
+        padding-top: 80px;
+        margin: 30px;
+        font-size: 35px;
+    }
+
+    .circle-hidden{
+        display: none;
+    }
+
+    .design-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+
+
+    }
+
+    .dev-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        padding-left: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .support-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        padding-left: 10px;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        margin-right: 5px;
+    }
+
+    .host-circle{
+        color: white;
+        border-radius: 50%;
+        border: 8px solid white;
+        height: 250px;
+        width: 100px;
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+
+    }
+
+    .circle-margin {
+        /*display: inline-flex;*/
+        /*justify-content: space-evenly;*/
+        margin-top: 40px;
+
+
+    }
+
+
+
+}
