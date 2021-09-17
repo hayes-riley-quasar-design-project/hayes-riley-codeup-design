@@ -440,5 +440,14 @@ hr{
         top: 153px;
     }
 
+    .title-margin {
+        margin-top: 30px;
+    }
+
+
+    .tr-background {
+        background-color: transparent;
+        border: none;
+    }
 
 }
