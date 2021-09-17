@@ -241,6 +241,10 @@ ul{
         display: none;
     }
 
+    .hidden-in-xs{
+        display: none;
+    }
+
 
 
     /*.xs-tron > h5{*/
